@@ -39,4 +39,6 @@ CompileFlags:
  ]
 ```
 
+also adding a `#define STM32F401xC` in the main.h file will help fix some of the final problems. ofc replace `STM32F401xC` with the relevant board definition.
+
 this made the LSP mostly work. you can go to definitions and what not. i still get like two errors in main.c but its 3am now and i have sat trying to get this working for hours so i think its good enough. 
